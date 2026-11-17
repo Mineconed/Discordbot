@@ -1,0 +1,30 @@
+# Discordbot  •  Lavet af Mineconed
+# Pladsholdere: {server} {ip} {online} {max} {seconds} {count} {version}
+
+bot_activity: "{online} spillere online"
+
+status_title_online: "🟢 {server} er online"
+status_title_offline: "🔴 {server} er offline"
+status_offline_text: "Serveren er offline lige nu. Kig forbi igen snart!"
+status_footer: "Opdateres hvert {seconds}. sekund"
+status_footer_offline: "Offline"
+
+field_ip: "🌐 IP"
+field_players: "👥 Spillere"
+field_tps: "⚡ TPS"
+field_staff: "🛡️ Staff online"
+field_uptime: "⏱️ Oppetid"
+field_version: "📦 Version"
+field_online_now: "🎮 Online nu"
+nobody_online: "*Ingen online lige nu*"
+and_more: "og {count} mere"
+
+online_title: "👥 Online på {server}"
+online_text: "Der er **{online}/{max}** spillere online."
+
+ip_title: "🌐 Spil på {server}"
+ip_text: "**IP:** `{ip}`\n**Version:** {version}"
+
+slash_online: "Se hvem der er online på serveren"
+slash_status: "Se serverens status"
+slash_ip: "Få serverens IP"

@@ -1,0 +1,43 @@
+# ═══════════════════════════════════════════
+#   Discordbot  •  Made by Mineconed
+#   Live server status for Discord
+# ═══════════════════════════════════════════
+
+bot:
+  # Discord Developer Portal → Applications → your bot → Bot → Reset Token
+  token: "PUT_YOUR_BOT_TOKEN_HERE"
+  # Your Discord server ID (right click the server → Copy Server ID).
+  # With an ID the slash commands show up at once. Empty = global (can take up to 1 hour).
+  guild_id: ""
+
+# Language file: messages_en.yml or messages_da.yml (you can make your own)
+language: "en"
+
+server:
+  name: "My Server"
+  ip: "play.example.com"
+  # Picture in the corner of the embed (empty = none)
+  icon_url: ""
+
+status:
+  # Channel for the live status (right click the channel → Copy Channel ID)
+  channel_id: ""
+  # How often the status updates (min 15)
+  update_seconds: 60
+  show_player_list: true
+  max_names: 25
+  color_online: "#2ECC71"
+  color_offline: "#E74C3C"
+
+staff:
+  # Players with this permission count as staff
+  permission: "discordbot.staff"
+  # Hide vanished players (SuperVanish, PremiumVanish, Essentials ...)
+  hide_vanished: true
+
+slash_commands:
+  online: true
+  status: true
+  ip: true
+  # true = only the person who used the command can see the answer
+  hidden_replies: false

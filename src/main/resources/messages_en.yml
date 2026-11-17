@@ -1,0 +1,30 @@
+# Discordbot  •  Made by Mineconed
+# Placeholders: {server} {ip} {online} {max} {seconds} {count} {version}
+
+bot_activity: "{online} players online"
+
+status_title_online: "🟢 {server} is online"
+status_title_offline: "🔴 {server} is offline"
+status_offline_text: "The server is offline right now. Check back soon!"
+status_footer: "Updates every {seconds} seconds"
+status_footer_offline: "Offline"
+
+field_ip: "🌐 IP"
+field_players: "👥 Players"
+field_tps: "⚡ TPS"
+field_staff: "🛡️ Staff online"
+field_uptime: "⏱️ Uptime"
+field_version: "📦 Version"
+field_online_now: "🎮 Online now"
+nobody_online: "*Nobody online right now*"
+and_more: "and {count} more"
+
+online_title: "👥 Online on {server}"
+online_text: "There are **{online}/{max}** players online."
+
+ip_title: "🌐 Join {server}"
+ip_text: "**IP:** `{ip}`\n**Version:** {version}"
+
+slash_online: "See who is online on the server"
+slash_status: "See the server status"
+slash_ip: "Get the server IP"

@@ -1,0 +1,15 @@
+name: Discordbot
+version: ${project.version}
+main: dk.mineconed.discordbot.Discordbot
+author: Mineconed
+api-version: 1.13
+
+commands:
+  discordbot:
+    aliases: [dbot]
+
+permissions:
+  discordbot.admin:
+    default: op
+  discordbot.staff:
+    default: false
