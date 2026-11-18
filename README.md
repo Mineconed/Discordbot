@@ -1,4 +1,5 @@
 # Discordbot • Live server status for Discord
+Not getting updated
 Made by Mineconed
 
 One small plugin that shows your Minecraft server live in Discord.
